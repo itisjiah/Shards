@@ -47,6 +47,7 @@ body nav::after {
 	position:relative;
 	/* padding-top: 50px; */
 	margin-top: 90px;
+	margin-bottom: 50px;
 
 }
 
@@ -62,16 +63,17 @@ body nav::after {
 #contact h1 {
 	color: #DC9597;
 	display: block;
-	font-size: 55px;
+	font-size: 35px;
 	text-align:center;
 	font-weight: 400;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 10px;
 }
 
 
 fieldset {
 	border: medium none !important;
-	margin: 0 0 10px;
+	margin: 20px 0 15px 0;
 	min-width: 100%;
 	padding: 0;
 	width: 100%;
