@@ -1,0 +1,100 @@
+body {
+	width: 100%;
+	margin:0 auto;
+	background-image: url(Raw_images/home_image.jpg);
+	background-color:black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 69%
+}
+
+body nav{
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+}
+
+body nav a{
+	font-size: 25px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	letter-spacing: 2px;
+	color:#DC9597;
+	text-decoration: none;
+	margin: 15px;
+}
+/*body h1 {
+
+	font-family: "butcherman-caps";
+	font-size: 120px;
+	color: white;
+	border-bottom: 2px solid white;
+	padding: 0 1.5rem;
+	margin-left: 20%;
+	display: block;
+	margin: 20px auto 0;
+	position: absolute;
+	letter-spacing: 85px;
+	width: 44%
+    
+}*/
+
+
+.info .overlay {
+	background-color: black;
+	width: 100%;
+	margin-top: 35%;
+	padding-bottom: 50px;
+
+}
+
+.info .overlay .profile {
+	display: flex;
+}
+
+
+.info .overlay .profile .image-container {
+	width: 40%;
+}
+
+.info .overlay .profile .image-container img {
+	width: 100%;
+	height: auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-left: 35px;
+}
+
+.info .overlay .profile .text-container {
+	width: 60%;
+}
+
+.info .overlay .profile .text-container h1{
+
+	color: white;
+	font-size: 35x;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	padding-top: 38%;
+	letter-spacing: 15px;
+
+}
+
+
+.info .overlay .profile .text-container p{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    letter-spacing: 2px;
+    color: #C67321;
+}
+
+.info .overlay .style
+
+{
+	margin-left: 110px;
+}
+
+
+
+

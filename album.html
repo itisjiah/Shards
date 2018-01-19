@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Album</title>
+	<link rel="stylesheet" type="text/css" href="album.css">
+</head>
+<body>
+  <nav>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="album.html">ALBUM</a>
+      <a href="contact.html">CONTACT</a>
+  </nav>
+    <main>
+    <h1>First Album</h1>
+    <div>
+      <img src="Raw_images/sha.jpg" alt="picture of leoh" style="width:600px; height:600px;">
+      <ol>
+      <li> Artificial Rain</li>
+      <li> Whisper </li>
+      <li> Somehow</li>
+      <li> Ph.14</li>
+      <li> U R What You Eat</li>
+      </ol>
+      <a href="https://shardstunes.bandcamp.com/releases" target="_blank" style="color:white;"> Click Here To Listn Shards Music </a>
+      <p> Shards relese their album</p>
+    </div>
+
+    <h2>Pictures</h2>
+       <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade" style="background-image: url('./Raw_images/gig1.jpg')">
+        <div class="numbertext">1 / 9</div>
+        <!-- <img src="Raw_images/gig1.jpg" style="width:100%"> -->
+        </div>
+
+        <div class="mySlides fade" style="background-image: url('./Raw_images/gig4.jpg')">
+        <div class="numbertext">2 / 9</div>
+        <!-- <img src="Raw_images/gig4.jpg" style="width:100%"> -->
+        </div>
+
+        <div class="mySlides fade" style="background-image: url('./Raw_images/har3.jpg')">
+        <div class="numbertext">3 / 9</div>
+        <!-- <img src="Raw_images/har3.jpg" style="width:100%"> -->
+        </div>
+
+        <div class="mySlides fade" style="background-image: url('./Raw_images/pp1.jpg')">
+        <div class="numbertext">4 / 9</div>
+        </div>
+
+        <div class="mySlides fade" style="background-image: url('./Raw_images/pp2.jpg')">
+        <div class="numbertext">5 / 9</div>
+      
+        </div>
+
+        <div class="mySlides fade" style="background-image: url('./Raw_images/pp3.jpg')">
+        <div class="numbertext">6 / 9</div>
+        </div>
+
+        <div class="mySlides fade" style="background-image: url('./Raw_images/set_list.jpg')">
+        <div class="numbertext">7 / 9</div>
+        <!-- <img src="Raw_images/set_list.jpg" style="width:100%"> -->
+        </div>
+
+        <div class="mySlides fade" style="background-image: url('./Raw_images/gig2.jpg')">
+        <div class="numbertext">8 / 9</div>
+        
+        </div>
+
+        <div class="mySlides fade" style="background-image: url('./Raw_images/gig3.jpg')">
+        <div class="numbertext">9 / 9</div>
+    
+        </div>
+
+        <!-- Next and previous buttons -->
+        <div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+      
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+      <span class="dot" onclick="currentSlide(6)"></span> 
+      <span class="dot" onclick="currentSlide(7)"></span> 
+      <span class="dot" onclick="currentSlide(8)"></span> 
+      <span class="dot" onclick="currentSlide(9)"></span> 
+    </div>
+
+  </main>
+</body>
+</html>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
