@@ -12,14 +12,13 @@ body nav{
 
 
 body nav a {
-	font-size: 25px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	font-family: 'Archivo Black', sans-serif;
 	letter-spacing: 2px;
 	color:#DC9597;
 	text-decoration: none;
-	margin: 15px;
+	margin: 20px;
 }
-
 body nav::after {
 	display: block;
 	content: "rem";

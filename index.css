@@ -18,12 +18,12 @@ body nav {
     
 
 body nav a {
-	font-size: 25px;
-	font-family: 'Nosifer', cursive;
+	font-size: 22px;
+	font-family: 'Archivo Black', sans-serif;
 	letter-spacing: 2px;
 	color:#DC9597;
 	text-decoration: none;
-	margin: 15px;
+	margin: 20px;
 }
 
 main div {
@@ -35,11 +35,11 @@ main div {
 }
 
 main h1 {
-	font-family: "butcherman-caps";
+	font-family: 'Nosifer', cursive;
 	text-align: center;
-	font-size: 120px;
+	font-size: 109px;
 	color: white;
-	letter-spacing: 85px;
+	letter-spacing: 88px;
 	margin-bottom: 0;
 	border-bottom: 2px solid white;
 	margin: 0 150px 50px;
